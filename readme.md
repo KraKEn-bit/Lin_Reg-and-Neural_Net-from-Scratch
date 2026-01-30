@@ -19,12 +19,12 @@ This repository contains **from-scratch implementations** of **Linear Regression
 ---
 
 
-## 📂 Project Files
-
-├── Linear_Regression_From_Scratch_Using_PyTorch.ipynb
-├── Fashion_MNIST_NN_using_Pytorch.ipynb
-├── Fashion_Model.pth
-└── README.md
+## 📂 Project Files<br>
+<br>
+├── Linear_Regression_From_Scratch_Using_PyTorch.ipynb<br>
+├── Fashion_MNIST_NN_using_Pytorch.ipynb<br>
+├── Fashion_Model.pth<br>
+└── README.md<br>
 
 
 
