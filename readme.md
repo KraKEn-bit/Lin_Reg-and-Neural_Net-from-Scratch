@@ -8,26 +8,16 @@ This repository contains **from-scratch implementations** of **Linear Regression
 
 ## 📌 What’s Implemented
 
-- ✅ Linear Regression from scratch  
-- ✅ Feedforward Neural Network (manual layers)
-- ✅ Manual forward pass
-- ✅ Automatic backpropagation using `loss.backward()`
-- ✅ Manual weight and bias updates
-- ✅ Gradient zeroing and computation graph control using `torch.no_grad()`
-- ✅ Model saving and loading
+-  Linear Regression from scratch  
+-  Feedforward Neural Network (manual layers)
+-  Manual forward pass
+-  Automatic backpropagation using `loss.backward()`
+-  Manual weight and bias updates
+-  Gradient zeroing and computation graph control using `torch.no_grad()`
+-  Model saving and loading
 
 ---
 
-## 🧠 Concepts Learned & Applied
-
-- PyTorch dynamic computation graphs
-- Autograd and gradient accumulation
-- Mean Squared Error (MSE) loss
-- Gradient Descent from first principles
-- Why weight updates must not be tracked by autograd
-- Model persistence using `.pth` files
-
----
 
 ## 📂 Project Files
 
@@ -41,7 +31,7 @@ This repository contains **from-scratch implementations** of **Linear Regression
 
 ---
 
-## 🧪 Dataset
+## Dataset:
 
 - **Fashion-MNIST**
 - 10 classes of clothing items
@@ -49,11 +39,12 @@ This repository contains **from-scratch implementations** of **Linear Regression
 
 ---
 
-## 💾 Saved Model
+## Model:
 
 - `Fashion_Model.pth` contains the trained neural network parameters.
 - Saved using `torch.save()` after training.
 - Can be loaded for inference or continued training.
+
 
 ### Load the saved model
 
@@ -62,8 +53,3 @@ model.load_state_dict(torch.load("Fashion_Model.pth"))
 model.eval()
 ```
 
-
-
-🚀 How to Run
-pip install torch torchvision
-jupyter notebook
